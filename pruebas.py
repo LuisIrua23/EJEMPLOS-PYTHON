@@ -1,5 +1,12 @@
-numero = int(input("ingrese numero: "))
-if numero>=18:
-    print("es mayor de edad")
-elif numero==20:
-    print("es menor de edad")
+# print("tablas de multiplicar")
+# numero = int(input("ingrese un numero: "))
+# for a  in range(1,11):
+#     print(numero, "x" , a, "=", numero*a )
+
+print("numeros de 5 a 20 de dos en dos ")
+for i in range(5,20,2):
+    print(i)
+
+print("numeros del 5 a 1  ")
+for i in range(5,0,-1):
+    print(i)
