@@ -1,6 +1,4 @@
 
-
-
 import random
 x = random.randint(5, 25)  # Generar número aleatorio entre 5 y 25
 print("Número generado:", x)
